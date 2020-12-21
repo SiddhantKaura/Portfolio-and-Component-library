@@ -6,8 +6,7 @@ body {
 }
 
 :root {
-    --primary-color: #DC2626
-    ; 
+    --primary-color: #DC2626; 
     /* #7C3AED; */
     --dark-color: #6B7280;
     --off-white: #D6D3D1;
@@ -28,6 +27,8 @@ hr {
     max-width: 700px;
     margin: auto;
 }
+
+
 
 /** links **/
 .link{
@@ -171,6 +172,55 @@ hr {
 .footer .footer-header {
     font-weight: bold;
     font-size: large;
+}
+
+@media screen and (max-width: 400px) {
+    .flx {
+        display: flex;
+        flex-wrap: wrap;
+   }
+
+   .link {
+       margin: 0.5rem;
+   }
+
+   header .hero {
+       padding: 1rem 0rem;
+   }
+
+   .section {
+       padding: 0rem;
+       max-width: 100%;
+       width: 100%;
+   }
+
+   .container {
+       padding: 1rem;
+   }
+
+   .hero .hero-img {
+       width: 100%;
+       margin: 0;
+   }
+
+   .navigation {
+       padding: 1rem 0rem;
+   }
+
+   .hero .text-animated {
+       font-size: 1rem;
+       padding-bottom: 2px;
+       width: 100%;
+   }
+
+   .text-container-spaced {
+       line-height: 2rem; 
+   }
+
+   .list-item-inline {
+       display: block;
+       margin-top: 1rem;
+   }
 }
 
 
